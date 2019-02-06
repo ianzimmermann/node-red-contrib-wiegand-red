@@ -1,0 +1,26 @@
+{
+  "name": "wiegand-node",
+  "version": "0.2.1",
+  "description": "Wiegand 26 and Wiegand 34 Protocol Module for Node.js",
+  "main": "node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wiegand"
+  ],
+  "author": "Reals <support@realsweb.com>",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "wiegand": "Wiegand-Node-Red/wiegand-red.js"
+    }
+  },
+  "dependencies": {
+    "onoff": "1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reals79/wiegand-node"
+  }
+}
